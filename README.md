@@ -1,7 +1,7 @@
 # Codebender selenium tests for embedded views
 
 ### Contents
- - Overview
+- Overview
 - Usage
 - Files
 #
