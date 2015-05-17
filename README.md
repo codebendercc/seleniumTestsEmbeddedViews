@@ -5,18 +5,13 @@
 - Usage
 - Files
 
-#
-
 ### Overview
 Some scripts used to run selenium tests for embedded views.
-
-#
 
 ### Usage
 1. Edit ssmtp.conf to setup a valid e-mail configuration
 2. Run ./build.sh once
 3. Run ./run.sh to test (schedule run.sh as a cron job)
-#
 
 ### Files:
 - build.sh
@@ -37,7 +32,7 @@ Some scripts used to run selenium tests for embedded views.
 - Script used to start the tests (run with `./run.sh`) and can be scheduled as a cron job in order to periodicaly run the tests
 
 #### ssmtp.conf
-- e-mail configuration file needed for sending e-mails through the terminal
+- e-mail configuration file needed for sending e-mails through the terminal.
 Below is a sample configuration using gmail as the mailing server
 for e-mail: test
 
