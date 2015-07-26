@@ -29,7 +29,10 @@ Some scripts used to run selenium tests for embedded views.
 - Runs the selenium tests inside the docker container and notifies via e-mail after a test failure (attaching the test log into the e-mail)
 
 #### run.sh
-- Script used to start the tests (run with `./run.sh CODEBENDER_SELENIUM_HUB_URL`) and can be scheduled as a cron job in order to periodicaly run the tests
+- Script used to start the tests
+run with `./run.sh CODEBENDER_SELENIUM_HUB_URL`
+where `CODEBENDER_SELENIUM_HUB_URL` has the form: `http://{USERNAME}:{ACCESS_KEY}@ondemand.saucelabs.com:80/wd/hub`
+and can be scheduled as a cron job in order to periodicaly run the tests
 
 #### ssmtp.conf
 - e-mail configuration file needed for sending e-mails through the terminal.
